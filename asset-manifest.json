@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/MeecoA/movies-app/static/css/main.334bdeb1.css",
+    "main.js": "/MeecoA/movies-app/static/js/main.bcdfc2e7.js",
+    "static/js/787.2b35ebb1.chunk.js": "/MeecoA/movies-app/static/js/787.2b35ebb1.chunk.js",
+    "index.html": "/MeecoA/movies-app/index.html",
+    "static/media/search.svg": "/MeecoA/movies-app/static/media/search.560a63e6c7166e798d1a8063eae09ff8.svg",
+    "main.334bdeb1.css.map": "/MeecoA/movies-app/static/css/main.334bdeb1.css.map",
+    "main.bcdfc2e7.js.map": "/MeecoA/movies-app/static/js/main.bcdfc2e7.js.map",
+    "787.2b35ebb1.chunk.js.map": "/MeecoA/movies-app/static/js/787.2b35ebb1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.334bdeb1.css",
+    "static/js/main.bcdfc2e7.js"
+  ]
+}
