@@ -7,15 +7,6 @@ import SearchIcon from "./search.svg";
 // creationg api variable
 const API_URL = "http://www.omdbapi.com/?i=tt3896198&apikey=f46d0431";
 
-const movie1 = {
-  Title: "Wonder Woman",
-  Year: "2017",
-  imdbID: "tt0451279",
-  Type: "movie",
-  Poster:
-    "https://m.media-amazon.com/images/M/MV5BMTYzODQzYjQtNTczNC00MzZhLTg1ZWYtZDUxYmQ3ZTY4NzA1XkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_SX300.jpg",
-};
-
 function App() {
   // to map all the movies, create a new state
   const [movies, setMovies] = useState([]);
@@ -28,14 +19,14 @@ function App() {
     setMovies(data.Search);
   };
   useEffect(() => {
-    searchMovies("Wonder");
-  }, []);
+    searchMovies("The last of us");
+  }, []); //used empty dependancy array if you want to call it from the start
   return (
     <div className="app">
-      <h1>Movies 101</h1>
+      <h1>MovieSegame</h1>
       <div className="search">
         <input
-          placeholder="search for movies"
+          placeholder="search for movies/series/game"
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
         ></input>
